@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductCatalog</name>
+    </assembly>
+    <members>
+        <member name="M:ProductCatalog.Controllers.ProductController.Get">
+            <summary>
+            Use this end point to get a list of products
+            </summary>
+            <returns>List of all available products</returns>
+        </member>
+        <member name="M:ProductCatalog.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            Returns a single product
+            </summary>
+            <param name="id">The unique identifier for a specific product</param>
+            <returns>Product</returns>
+        </member>
+        <member name="M:ProductCatalog.Controllers.ProductController.Put(ProductCatalog.Models.AddProductViewModel)">
+            <summary>
+            Used to create a new product
+            </summary>
+            <param name="Product">Details of new Product being added</param>
+        </member>
+        <member name="M:ProductCatalog.Controllers.ProductController.Post(ProductCatalog.Models.UpdateProductViewModel)">
+            <summary>
+            Use to update an existing Product
+            </summary>
+            <param name="Product">The Product with changes to be updated</param>
+        </member>
+        <member name="M:ProductCatalog.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Use to remove a Product from the catalog
+            </summary>
+            <param name="id">The unique identifier of the product which should be deleted</param>
+        </member>
+    </members>
+</doc>
